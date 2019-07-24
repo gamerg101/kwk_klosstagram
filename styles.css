@@ -1,0 +1,55 @@
+body{
+  background-color: pink
+}
+.purplecontainer{
+border: 1px solid purple;
+display: inline-block;
+}
+
+.orangecontainer{
+border: 1px solid orange;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+#pfp{
+  height: 10%;
+  width: 10%;
+  border: 1px solid red;
+  border-radius: 100px;
+  box-shadow: black 100px
+}
+
+.imgs {
+  height:220px;
+  width: auto;
+}
+.kwkname{
+  display: flex;
+  align-items: center;
+}
+
+.kwkinfobox{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+
+
+}
+.kwkinfo{
+  display: flex;
+  align-items: flex-end;
+}
+
+.kwkprofileinfobox{
+  display: flex;
+  align-items: center;
+
+}
+
+.kwkprofileinfo{
+  display: flex;
+  align-items: flex-end;
+
+}
